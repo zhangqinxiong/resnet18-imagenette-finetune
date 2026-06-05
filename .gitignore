@@ -1,0 +1,40 @@
+# Python 产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# 模型权重文件
+*.pth
+*.pt
+*.pkl
+
+# TensorBoard 日志
+runs/
+tb.log
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+*.env.local
+
+# 数据集路径 (如需追踪可删除)
+# DATA_DIR 路径不在此追踪
+
+# Jupyter Notebook 缓存
+.ipynb_checkpoints/
+
+# PyTorch 临时文件
+torch_compile_cache/
